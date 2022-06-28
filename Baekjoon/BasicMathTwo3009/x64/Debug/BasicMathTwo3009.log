@@ -1,0 +1,4 @@
+﻿  BasicMathTwo3009.cpp
+D:\yuhan\GITHUB\Practice\Baekjoon\Baekjoon\BasicMathTwo3009\BasicMathTwo3009.cpp(14,40): warning C4101: 'yCnt' :참조되지 않은 지역 변수입니다.
+D:\yuhan\GITHUB\Practice\Baekjoon\Baekjoon\BasicMathTwo3009\BasicMathTwo3009.cpp(14,34): warning C4101: 'xCnt' :참조되지 않은 지역 변수입니다.
+  BasicMathTwo3009.vcxproj -> D:\yuhan\GITHUB\Practice\Baekjoon\Baekjoon\x64\Debug\BasicMathTwo3009.exe

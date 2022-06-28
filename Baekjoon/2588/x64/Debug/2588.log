@@ -1,0 +1,2 @@
+﻿  2588.cpp
+D:\yuhan\GITHUB\Practice\Baekjoon\Baekjoon\2588\2588.cpp(10,13): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

@@ -1,0 +1,4 @@
+﻿  BasicMathOne10757.cpp
+D:\yuhan\GITHUB\Practice\Baekjoon\Baekjoon\BasicMathOne10757\BasicMathOne10757.cpp(19,14): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\yuhan\GITHUB\Practice\Baekjoon\Baekjoon\BasicMathOne10757\BasicMathOne10757.cpp(54,2): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BasicMathOne10757.vcxproj -> D:\yuhan\GITHUB\Practice\Baekjoon\Baekjoon\x64\Debug\BasicMathOne10757.exe
