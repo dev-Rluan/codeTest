@@ -14,11 +14,20 @@ class 고급알고리즘_홀수짝수{
         
     }
     public static boolean isEven(int n){
+<<<<<<< HEAD
 //        if(n & 1 == 1){
 //            return true;
 //        }else {
 //            return false;
 //        }
 return false;
+=======
+        if((n & 1) == 1){
+            return true;
+        }else {
+            return false;
+        }
+
+>>>>>>> main
     }
 }
