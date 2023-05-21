@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class 고급알고리즘_홀수짝수{
     public static void main(String[] args){
         Scanner sc  = new Scanner(System.in);
@@ -12,11 +14,11 @@ class 고급알고리즘_홀수짝수{
         
     }
     public static boolean isEven(int n){
-        if(n & 1 == 1){
-            return true;
-        }else {
-            return false;
-        }
-
+//        if(n & 1 == 1){
+//            return true;
+//        }else {
+//            return false;
+//        }
+return false;
     }
 }
