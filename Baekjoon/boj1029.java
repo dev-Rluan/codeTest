@@ -1,41 +1,52 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class boj1029 {
-    public static void main(String[] args) throws IOException {
-        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb = new StringBuilder();
+    public static void main(String[] args)  {
+        Scanner sc = new Scanner(System.in);
+        int answer = 1;
 
-        StringTokenizer st = new StringTokenizer(bf.readLine());
+        int n = sc.nextInt();
+        int arr[][] = new int[n][n];
 
-        int m = Integer.parseInt(st.nextToken());
-        int n = Integer.parseInt(st.nextToken());
+        int max = 0;
+        int oldI  = 0;
 
 
-        for (int i = m; i <= n; i++) {
-            if(isPrime(i)){
-                sb.append(i).append("\n");
+        for (int i = 0; i < n; i++) {
+            String str = sc.next();
+            for (int j = 0; j < str.length(); j++) {
+                arr[i][j] = str.charAt(j) -'0';
             }
+            
         }
 
-        System.out.println(sb);
+        for (int i = 0; i < n; i++) {
+            boolean isTrance = true;
+            for (int j = 0; j < n; j++) {
+                System.out.println("arr[i][j] = " + arr[i][j]);
+                if (arr[i][j] != 0 && isTrance){
+                    System.out.println("start if ========");
+                    System.out.println("oldI = " + oldI);
+                    System.out.println("arr[i][j] = " + arr[i][j]);
+                    if(arr[i][j] >= max){
+                        max = arr[i][j];
+                        answer++;
+                        isTrance = false;
+                    }
+
+                    System.out.println("end if ========");
+                }
+
+            }
+            System.out.println("i = " + i);
+            System.out.println("answer = " + answer);
+        }
+
+        System.out.println(answer);
 
     }
 
-    public static boolean isPrime(int num){
-        if(num < 2){
-            return false;
-        }
-
-        for (int i = 2; i <= Math.sqrt(num); i++) {
-            if(num % i == 0){
-                return false;
-            }
-        }
-        return true;
-    }
 
 
 }
